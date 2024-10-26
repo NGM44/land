@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Stripes from "@/public/images/stripes-dark.svg";
+import Stripes from "./images/stripes-dark.svg";
 import { Mail } from "lucide-react";
 
 export default function Cta() {
