@@ -29,7 +29,7 @@ export default function FeaturesPlanet() {
                   height={400}
                   alt="Planet"
                 />
-                <div className="pointer-events-none" aria-hidden="true">
+                {/* <div className="pointer-events-none" aria-hidden="true">
                   <Image
                     className="absolute -right-64 -top-20 z-10 max-w-none"
                     src={PlanetOverlayImg}
@@ -67,7 +67,7 @@ export default function FeaturesPlanet() {
                       alt="Tag 04"
                     />
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
