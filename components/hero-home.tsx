@@ -17,7 +17,7 @@ export default function HeroHome() {
         <div className="pb-12 pt-32 md:pb-20 md:pt-40">
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
-            <div
+            {/* <div
               className="mb-6 border-y [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]"
               data-aos="zoom-y-out"
             >
@@ -65,7 +65,7 @@ export default function HeroHome() {
                   alt="Avatar 05"
                 />
               </div>
-            </div>
+            </div> */}
             <h1
               className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
               data-aos="zoom-y-out"
@@ -112,7 +112,7 @@ export default function HeroHome() {
             data-aos="zoom-y-out"
             data-aos-delay={600}
           >
-            <div className="relative aspect-video rounded-2xl bg-transparent px-5 py-3 before:pointer-events-none before:absolute before:-inset-5 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] after:absolute after:-inset-5 after:-z-10 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,theme(colors.slate.300/.8),transparent)1]">
+            {/* <div className="relative aspect-video rounded-2xl bg-transparent px-5 py-3 before:pointer-events-none before:absolute before:-inset-5 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] after:absolute after:-inset-5 after:-z-10 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,theme(colors.slate.300/.8),transparent)1]">
               <Image
                 src={ImageSoftware}
                 alt={""}
@@ -120,7 +120,7 @@ export default function HeroHome() {
                 height={1000}
                 className="shadow-xl rounded-lg"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
